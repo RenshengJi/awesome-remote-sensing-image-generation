@@ -20,3 +20,13 @@ A curated list of papers and open-source resources focused on remote sensing ima
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2405.13570) | [💻 Code](https://github.com/samar-khanna/DiffusionSat) | [🌐 Project Page](https://jiupinjia.github.io/metaearth/)  
+
+
+### 3. [NIPS '2024] ZoomLDM: Latent Diffusion Model for multi-scale image generation
+**Authors**: Srikar Yellapragada, Alexandros Graikos, Kostas Triaridis, Prateek Prasanna, Rajarsi R. Gupta, Joel Saltz, Dimitris Samaras
+<details span>
+<summary><b>Abstract</b></summary>
+  Diffusion models have revolutionized image generation, yet several challenges restrict their application to large-image domains, such as digital pathology and satellite imagery. Given that it is infeasible to directly train a model on 'whole' images from domains with potential gigapixel sizes, diffusion-based generative methods have focused on synthesizing small, fixed-size patches extracted from these images. However, generating small patches has limited applicability since patch-based models fail to capture the global structures and wider context of large images, which can be crucial for synthesizing (semantically) accurate samples. In this paper, to overcome this limitation, we present ZoomLDM, a diffusion model tailored for generating images across multiple scales. Central to our approach is a novel magnification-aware conditioning mechanism that utilizes self-supervised learning (SSL) embeddings and allows the diffusion model to synthesize images at different 'zoom' levels, i.e., fixed-size patches extracted from large images at varying scales. ZoomLDM achieves state-of-the-art image generation quality across all scales, excelling particularly in the data-scarce setting of generating thumbnails of entire large images. The multi-scale nature of ZoomLDM unlocks additional capabilities in large image generation, enabling computationally tractable and globally coherent image synthesis up to 4096×4096 pixels and 4× super-resolution. Additionally, multi-scale features extracted from ZoomLDM are highly effective in multiple instance learning experiments.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2411.16969v1) | 💻 Code | [🌐 Project Page](https://histodiffusion.github.io/docs/publications/zoomldm/)  
