@@ -42,10 +42,6 @@ A curated list of papers and open-source resources focused on remote sensing ima
   [📄 Paper](https://arxiv.org/pdf/2312.07330) | [💻 Code](https://github.com/cvlab-stonybrook/Large-Image-Diffusion) | [🌐 Project Page](https://histodiffusion.github.io/docs/publications/large_image)  
 
 
-  GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis
-
-
-
 ### 5. [CVPRW '2024] GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis
 **Authors**: Srikumar Sastry, Subash Khanal, Aayush Dhakal, Nathan Jacobs
 <details span>
@@ -54,5 +50,15 @@ A curated list of papers and open-source resources focused on remote sensing ima
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2404.06637) | [💻 Code](https://github.com/mvrl/GeoSynth) | 🌐 Project Page
+
+
+### 6. [Arxiv '2024] AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Generation
+**Authors**: Datao Tang, Xiangyong Cao, Xuan Wu, Jialin Li, Jing Yao, Xueru Bai, Deyu Meng
+<details span>
+<summary><b>Abstract</b></summary>
+  Remote sensing image object detection (RSIOD) aims to identify and locate specific objects within satellite or aerial imagery. However, there is a scarcity of labeled data in current RSIOD datasets, which significantly limits the performance of current detection algorithms. Although existing techniques, e.g., data augmentation and semi-supervised learning, can mitigate this scarcity issue to some extent, they are heavily dependent on high-quality labeled data and perform worse in rare object classes. To address this issue, this paper proposes a layout-controllable diffusion generative model (i.e. AeroGen) tailored for RSIOD. To our knowledge, AeroGen is the first model to simultaneously support horizontal and rotated bounding box condition generation, thus enabling the generation of high-quality synthetic images that meet specific layout and object category requirements. Additionally, we propose an end-to-end data augmentation framework that integrates a diversity-conditioned generator and a filtering mechanism to enhance both the diversity and quality of generated data. Experimental results demonstrate that the synthetic data produced by our method are of high quality and diversity. Furthermore, the synthetic RSIOD data can significantly improve the detection performance of existing RSIOD models, i.e., the mAP metrics on DIOR, DIOR-R, and HRSC datasets are improved by 3.7%, 4.3%, and 2.43%, respectively.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2411.15497) | 💻 Code | 🌐 Project Page
 
 
