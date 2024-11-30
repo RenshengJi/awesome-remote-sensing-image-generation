@@ -40,3 +40,19 @@ A curated list of papers and open-source resources focused on remote sensing ima
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2312.07330) | [💻 Code](https://github.com/cvlab-stonybrook/Large-Image-Diffusion) | [🌐 Project Page](https://histodiffusion.github.io/docs/publications/large_image)  
+
+
+  GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis
+
+
+
+### 5. [CVPRW '2024] GeoSynth: Contextually-Aware High-Resolution Satellite Image Synthesis
+**Authors**: Srikumar Sastry, Subash Khanal, Aayush Dhakal, Nathan Jacobs
+<details span>
+<summary><b>Abstract</b></summary>
+  We present GeoSynth, a model for synthesizing satellite images with global style and image-driven layout control. The global style control is via textual prompts or geographic location. These enable the specification of scene semantics or regional appearance respectively, and can be used together. We train our model on a large dataset of paired satellite imagery, with automatically generated captions, and OpenStreetMap data. We evaluate various combinations of control inputs, including different types of layout controls. Results demonstrate that our model can generate diverse, high-quality images and exhibits excellent zero-shot generalization.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2404.06637) | [💻 Code](https://github.com/mvrl/GeoSynth) | 🌐 Project Page
+
+
