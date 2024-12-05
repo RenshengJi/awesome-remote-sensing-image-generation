@@ -72,3 +72,14 @@ A curated list of papers and open-source resources focused on remote sensing ima
   [📄 Paper](https://arxiv.org/pdf/2308.16648) | [💻 Code](https://github.com/miquel-espinosa/map-sat) | 🌐 Project Page
 
 
+
+### 8. [NIPSW '2023] Semantic Guided Large Scale Factor Remote Sensing Image Super-resolution with Generative Diffusion Prior
+**Authors**: Ce Wang, Wanjie Sun
+<details span>
+<summary><b>Abstract</b></summary>
+  Remote sensing images captured by different platforms exhibit significant disparities in spatial resolution. Large scale factor super-resolution (SR) algorithms are vital for maximizing the utilization of low-resolution (LR) satellite data captured from orbit. However, existing methods confront challenges in recovering SR images with clear textures and correct ground objects. We introduce a novel framework, the Semantic Guided Diffusion Model (SGDM), designed for large scale factor remote sensing image super-resolution. The framework exploits a pre-trained generative model as a prior to generate perceptually plausible SR images. We further enhance the reconstruction by incorporating vector maps, which carry structural and semantic cues. Moreover, pixel-level inconsistencies in paired remote sensing images, stemming from sensor-specific imaging characteristics, may hinder the convergence of the model and diversity in generated results. To address this problem, we propose to extract the sensor-specific imaging characteristics and model the distribution of them, allowing diverse SR images generation based on imaging characteristics provided by reference images or sampled from the imaging characteristic probability distributions. To validate and evaluate our approach, we create the Cross-Modal Super-Resolution Dataset (CMSRD). Qualitative and quantitative experiments on CMSRD showcase the superiority and broad applicability of our method. Experimental results on downstream vision tasks also demonstrate the utilitarian of the generated SR images.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2405.07044) | [💻 Code](https://github.com/wwangcece/SGDM) | 🌐 Project Page
+
+
