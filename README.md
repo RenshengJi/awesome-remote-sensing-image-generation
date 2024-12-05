@@ -62,3 +62,13 @@ A curated list of papers and open-source resources focused on remote sensing ima
   [📄 Paper](https://arxiv.org/pdf/2411.15497) | 💻 Code | 🌐 Project Page
 
 
+### 7. [NIPSW '2023] Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
+**Authors**: Miguel Espinosa, Elliot J. Crowley
+<details span>
+<summary><b>Abstract</b></summary>
+  Despite recent advancements in image generation, diffusion models still remain largely underexplored in Earth Observation. In this paper we show that state-of-the-art pretrained diffusion models can be conditioned on cartographic data to generate realistic satellite images. We provide two large datasets of paired OpenStreetMap images and satellite views over the region of Mainland Scotland and the Central Belt. We train a ControlNet model and qualitatively evaluate the results, demonstrating that both image quality and map fidelity are possible. Finally, we provide some insights on the opportunities and challenges of applying these models for remote sensing.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2308.16648) | [💻 Code](https://github.com/miquel-espinosa/map-sat) | 🌐 Project Page
+
+
