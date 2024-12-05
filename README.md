@@ -83,3 +83,14 @@ A curated list of papers and open-source resources focused on remote sensing ima
   [📄 Paper](https://arxiv.org/pdf/2405.07044) | [💻 Code](https://github.com/wwangcece/SGDM) | 🌐 Project Page
 
 
+### 9. [Arxiv '2024] SkyDiffusion: Street-to-Satellite Image Synthesis with Diffusion Models and BEV Paradigm
+**Authors**: Junyan Ye, Jun He, Weijia Li, Zhutao Lv, Jinhua Yu, Haote Yang, Conghui He
+<details span>
+<summary><b>Abstract</b></summary>
+  Street-to-satellite image synthesis focuses on generating realistic satellite images from corresponding ground street-view images while maintaining a consistent content layout, similar to looking down from the sky. The significant differences in perspectives create a substantial domain gap between the views, making this cross-view generation task particularly challenging. In this paper, we introduce SkyDiffusion, a novel cross-view generation method for synthesizing satellite images from street-view images, leveraging diffusion models and Bird's Eye View (BEV) paradigm. First, we design a Curved-BEV method to transform street-view images to the satellite view, reformulating the challenging cross-domain image synthesis task into a conditional generation problem. Curved-BEV also includes a "Multi-to-One" mapping strategy for leveraging multiple street-view images within the same satellite coverage area, effectively solving the occlusion issues in dense urban scenes. Next, we design a BEV-controlled diffusion model to generate satellite images consistent with the street-view content, which also incorporates a light manipulation module to make the lighting conditions of the synthesized satellite images more flexible. Experimental results demonstrate that SkyDiffusion outperforms state-of-the-art methods on both suburban (CVUSA & CVACT) and urban (VIGOR-Chicago) cross-view datasets, with an average SSIM increase of 13.96% and a FID reduction of 20.54%, achieving realistic and content-consistent satellite image generation.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2408.01812) | [💻 Code](https://github.com/opendatalab/skydiffusion/) | [🌐 Project Page](https://opendatalab.github.io/skydiffusion/)  
+
+
+
