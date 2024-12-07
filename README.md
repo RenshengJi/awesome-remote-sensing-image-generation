@@ -59,7 +59,7 @@ A curated list of papers and open-source resources focused on remote sensing ima
   Remote sensing image object detection (RSIOD) aims to identify and locate specific objects within satellite or aerial imagery. However, there is a scarcity of labeled data in current RSIOD datasets, which significantly limits the performance of current detection algorithms. Although existing techniques, e.g., data augmentation and semi-supervised learning, can mitigate this scarcity issue to some extent, they are heavily dependent on high-quality labeled data and perform worse in rare object classes. To address this issue, this paper proposes a layout-controllable diffusion generative model (i.e. AeroGen) tailored for RSIOD. To our knowledge, AeroGen is the first model to simultaneously support horizontal and rotated bounding box condition generation, thus enabling the generation of high-quality synthetic images that meet specific layout and object category requirements. Additionally, we propose an end-to-end data augmentation framework that integrates a diversity-conditioned generator and a filtering mechanism to enhance both the diversity and quality of generated data. Experimental results demonstrate that the synthetic data produced by our method are of high quality and diversity. Furthermore, the synthetic RSIOD data can significantly improve the detection performance of existing RSIOD models, i.e., the mAP metrics on DIOR, DIOR-R, and HRSC datasets are improved by 3.7%, 4.3%, and 2.43%, respectively.
 </details>
 
-  [📄 Paper](https://arxiv.org/pdf/2411.15497) | 💻 Code | 🌐 Project Page
+  [📄 Paper](https://arxiv.org/pdf/2411.15497) | [💻 Code](https://github.com/Sonettoo/AeroGen) | 🌐 Project Page
 
 
 ### 7. [NIPSW '2023] Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
@@ -91,6 +91,17 @@ A curated list of papers and open-source resources focused on remote sensing ima
 </details>
 
   [📄 Paper](https://arxiv.org/pdf/2408.01812) | [💻 Code](https://github.com/opendatalab/skydiffusion/) | [🌐 Project Page](https://opendatalab.github.io/skydiffusion/)  
+
+
+
+### 10. [ICMLW '2024] SatDiffMoE: A Mixture of Estimation Method for Satellite Image Super-resolution with Latent Diffusion Models
+**Authors**: Zhaoxu Luo, Bowen Song, Liyue Shen
+<details span>
+<summary><b>Abstract</b></summary>
+  During the acquisition of satellite images, there is generally a trade-off between spatial resolution and temporal resolution (acquisition frequency) due to the onboard sensors of satellite imaging systems. High-resolution satellite images are very important for land crop monitoring, urban planning, wildfire management and a variety of applications. It is a significant yet challenging task to achieve high spatial-temporal resolution in satellite imaging. With the advent of diffusion models, we can now learn strong generative priors to generate realistic satellite images with high resolution, which can be utilized to promote the super-resolution task as well. In this work, we propose a novel diffusion-based fusion algorithm called \textbf{SatDiffMoE} that can take an arbitrary number of sequential low-resolution satellite images at the same location as inputs, and fuse them into one high-resolution reconstructed image with more fine details, by leveraging and fusing the complementary information from different time points. Our algorithm is highly flexible and allows training and inference on arbitrary number of low-resolution images. Experimental results show that our proposed SatDiffMoE method not only achieves superior performance for the satellite image super-resolution tasks on a variety of datasets, but also gets an improved computational efficiency with reduced model parameters, compared with previous methods.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2406.10225) | 💻 Code | 🌐 Project Page
 
 
 
